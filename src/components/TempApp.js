@@ -32,6 +32,7 @@ const TempApp = () => {
                         </h2>
                         <h1 className="temp">{city.temp}°C</h1>
                         <h3 className="tempmin_max">Min: {city.temp_min}°C | Max: {city.temp_max}°C</h3>
+                        <h3 className="tempmin_max">Pressure: {city.pressure}kPa | Humidity: {city.humidity}%</h3>
                     </div>
                 </>
                 )}
